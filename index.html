@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              },
+              screens:{
+                xs:"320px"
+              }
+            }
+          }
+        }
+      </script>
+      <style>
+        .container{
+            width: 85% !important;
+            max-width: 1440px !important;
+            /* margin: 0 auto !important; */
+        }
+      </style>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav class="container mx-auto xl:h-[100px] flex items-center justify-between">
+    <img src="img/Logo.png" alt="logo" class="xl:w-[140px] xs:w-[120px]">
+    <ul class="xl:flex gap-11 xs:hidden">
+      <li class="font-medium">Home</li>
+      <li class="font-medium">About </li>
+      <li class="font-medium">Blog</li>
+      <li class="mr-12 font-medium">Pricing</li>
+      <a href="https://t.me/oybek_me"><li class="font-semibold">Contact Us</li></a>
+    </ul>
+    <div class="text-[30px] xl:hidden"><i class="fa-solid fa-bars"></i></div>
+  </nav>
+  <header class="container flex justify-evenly flex-col xl:h-[600px] mx-auto relative xs:h-[400px] xs:mb-10">
+    <h1 class="xl:w-[60%] xl:text-[60px] font-bold xl:lg:leading-[75px] xs:text-[32px] xs:leading-[40px]
+    xs:w-[100%]">Everything you need to get the attention of your audience</h1>
+    <p class="xl:text-3xl font-semibold xl:w-[50%] xs:text-[16px] xs:leading-[25px] xs:w-[85%] xs:font-semibold">Our digital agency helps clients develop, implement and maintain successful digital marketing strategies across all channels. Also work with you to build your website and create online businesses that grow.</p>
+    <img src="img/Linked Path.png" alt="img" class="xl:w-[150px] absolute xl:bottom-14 xl:right-14 xs:w-[70px] xs:bottom-0 xs:right-0">
+  </header>
+  <main class="container xl:h-[600px] flex items-center justify-between mx-auto xl:flex-row xs:flex-col xs:h-[450px]">
+    <img src="img/main 1.png" alt="img work" class="xl:w-[380px] xl:block xs:hidden">
+    <div class="flex flex-col xl:w-[380px] xl:h-[477px] justify-between xs:w-[100%] xs:h-[400px]">
+      <img src="img/main 2.png" alt="img team" class="xl:w-[380px] xl:h-[57%] xs:w-[100%] xs:h-[55%]">
+      <h1 class="font-semibold text-2xl">What we believe in</h1>
+      <p class="xl:w-[100%] text-[#7E8492] font-medium xl:text-[15px] xs:w-[100%] xs:text-[14px]">Over the years at Sans, we’ve put a lot of thought into what it is that makes us who we are. The qualities that unite us, that make us such an effective team, and...</p>
+      <button class="bg-black w-[120px] h-[40px] rounded-[100px] text-white text-[13px] font-semibold">See Details -></button>
+    </div>
+    <div class="xl:w-[380px] xl:h-[477px] xl:block xs:hidden" >
+      <img src="img/main 1.png" alt="img" class="w-[380px] h-[75%] xl:block xs:hidden ">
+    </div>
+  </main>
+  <section class="container xl:h-[250px] xl:flex-row flex xl:items-center justify-between border-y-2 my-[40px] mx-auto xs:flex-col xs:h-[210px] xs:py-4">
+    <h1 class="xl:w-[40%] font-semibold xl:text-[55px] xl:leading-[60px] xs:text-[24px]">Powerful ideas & sales acceleration</h1>
+    <p class="xl:w-[450px] font-semibold xl:text-[22px] xl:leading-[32px] xs:w-[95%] xs:text-[14px]">We are a software development firm specializing in digital products. We build beautiful, functional and cross-platform solutions that are accessible to all.</p>
+  </section>
+
+  <div class="container mx-auto h-[275px] flex flex-col gap-5">
+      <h1 class="xl:text-[45px] xl:w-[50%] xl:leading-[50px] xs:text-[25px] xs:w-[100%] font-semibold xs:leading-[35px]">Meet our team of creators, designers, and world-class problem solvers</h1>
+      <p class=" text-[#7E8492] xl:text-[16px] font-medium xl:w-[40%] xs:text-[15px] xs:w-[100%] mb-10">To become the company that customers want, it takes a group of passionate people. Get to know the people who lead</p>
+  </div>
+  <div class="container mx-auto  grid xl:grid-cols-3 items-center xl:gap-10 xs:grid-cols-1 sm:grid-cols-2">
+      <div class="h-[400px]">
+          <img src="img/Rectangle 6.png" alt="" class="w-[100%] h-[300px]">
+          <h1 class="text-[23px] mb-2 font-medium">Arlyne Stefano</h1>
+          <p class="text-[#7E8492] text-[15px] font-normal">Chief Technology Officer</p>
+      </div>
+      <div class="h-[400px]">
+          <img src="img/Rectangle 6.png" alt="" class="w-[100%] h-[300px]">
+          <h1 class="text-[23px] mb-2 font-medium">Arlyne Stefano</h1>
+          <p class="text-[#7E8492] text-[15px] font-normal">Chief Technology Officer</p>
+      </div>
+      <div class="h-[400px]">
+          <img src="img/Rectangle 6.png" alt="" class="w-[100%] h-[300px]">
+          <h1 class="text-[23px] mb-2 font-medium">Arlyne Stefano</h1>
+          <p class="text-[#7E8492] text-[15px] font-normal">Chief Technology Officer</p>
+      </div>
+  </div>
+  <div class="container xl:h-[150px] flex xl:flex-row xs:flex-col xl:gap-10 xs:gap-5 mx-auto xs:h-[250px]">
+      <h1 class="xl:w-[500px] xl:font-bold xl:text-[40px] xs:text-[28px] xs:font-semibold xl:leading-[50px] xs:leading-[35px]">Join our team, The one with the master touch</h1>
+      <p class="xl:w-[50%] text-[#7E8492] font-medium xl:text-[20px] xs:text-[14px]">We believe it takes great people to make a great product. That’s why we hire not only the perfect professional fits, but people who embody our company values.</p>
+  </div>
+  <footer class="bg-[#1D1E25]">
+    <div class="container xl:h-[200px] xl:flex-row xs:flex-col mx-auto flex items-center gap-7">
+       <div class="xl:w-[95%] flex flex-col xl:gap-5 xs:gap-6 py-4">
+        <h1 class="font-semibold text-white xl:text-[55px] xs:text-[25px]">Think beyond the wave</h1>
+        <p class="xl:text-[#AFB3BB] xs:text-white xl:font-normal xs:font-semibold xl:text-[17px] xs:text-[16px] xs:w-[90%] xl:w-[470px]">Ask about Sans products, pricing, implementation, or anything else. Our highly trained reps are standing by, ready to help</p>
+       </div>
+       <button class="w-[130px] h-[40px] bg-white rounded-[100px] font-semibold text-[15px]">Try for free</button>
+    </div>
+  </footer>
+  <footer class="bg-[#1D1E25]">
+    <div class="container mx-auto xl:h-[280px] flex items-center justify-between">
+      <div class="xl:w-[30%] h-[100%] flex flex-col justify-center xs:w-[100%] xs:h-[200px]">
+        <img src="img/Logo white.png" alt="logo" class="xl:w-[140px] xs:w-[120px]">
+        <p class="xl:w-[75%] text-[#7E8492] font-medium xl:leading-[23px] xs:w-[80%]">We built an elegant solution. Our team created a fully integrated sales and marketing solution for SMBs</p>
+      </div>
+      <div class="w-[17.5%] h-[100%] xl:flex items-center xl:block xs:hidden">
+        <ul class="flex flex-col gap-2">
+          <li class="mb-3 text-white font-bold text-[16px]">Company</li>
+          <li class="font-normal text-[#7E8492]">About</li>
+          <li class="font-normal text-[#7E8492]">Pricing</li>
+          <li class="font-normal text-[#7E8492]">Jobs</li>
+          <li class="font-normal text-[#7E8492]">Blog</li>
+        </ul>
+      </div>
+      <div class="w-[17.5%] h-[100%] xl:flex items-center xl:block xs:hidden">
+        <ul class="flex flex-col gap-2">
+          <li class="mb-3 text-white font-bold text-[16px]">Product</li>
+          <li class="font-normal text-[#7E8492]">Sales Software</li>
+          <li class="font-normal text-[#7E8492]">Marketplace</li>
+          <li class="font-normal text-[#7E8492]">Terms & Conditions</li>
+          <li class="font-normal text-[#7E8492]">Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="w-[17.5%] h-[100%] xl:flex items-center xl:block xs:hidden">
+        <ul class="flex flex-col gap-2">
+          <li class="mb-3 text-white font-bold text-[16px]">Discover</li>
+          <li class="font-normal text-[#7E8492]">CRM Comparision</li>
+          <li class="font-normal text-[#7E8492]">Partner Program</li>
+          <li class="font-normal text-[#7E8492]">What is CRM</li>
+          <li class="font-normal text-[#7E8492]">Resource</li>
+        </ul>
+      </div>
+      <div class="w-[17.5%] h-[100%] xl:flex items-center xl:block xs:hidden">
+        <ul class="flex flex-col gap-2">
+          <li class="mb-3 text-white font-bold text-[16px]">Help Center</li>
+          <li class="font-normal text-[#7E8492]">Community</li>
+          <li class="font-normal text-[#7E8492]">Knowledge Base</li>
+          <li class="font-normal text-[#7E8492]">Academy</li>
+          <li class="font-normal text-[#7E8492]">Support</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <footer class="bg-[#1D1E25]">
+    <div class="container mx-auto xl:h-[120px] border-t-2 border-[#606060] flex items-center xs:h-[200px] xl:justify-between xs:justify-evenly xl:flex-row xs:flex-col">
+      <div class="flex gap-5 w-[173px]">
+        <a href="https://www.facebook.com/?locale=ru_RU" target="_blank"><i class="fa-brands fa-facebook text-white text-[25px]"></i></a>
+        <a href="https://x.com/?lang=ru" target="_blank"><i class="fa-brands fa-twitter text-white text-[25px]"></i></a>
+        <a href="https://www.instagram.com/oybek_mirfayzullayev/" target="_blank"><i class="fa-brands fa-instagram text-white text-[25px]"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin text-white text-[25px]"></i></a>
+      </div>
+      <div>
+        <ul class="flex flex-row xl:gap-9 xs:gap-6">
+          <li class="font-medium text-[15px] text-white">Privacy Policy</li>
+          <li class="font-medium text-[15px] text-white">Terms & Conditions</li>
+          <li class="font-medium text-[15px] text-white">Support</li>
+        </ul>
+      </div>
+      <h1 class="font-medium text-[15px] text-white">© Copyright 2023,t All Rights Reserved</h1>
+    </div>
+  </footer>
+</body>
+</html>
